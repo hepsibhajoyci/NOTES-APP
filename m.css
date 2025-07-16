@@ -1,0 +1,39 @@
+/* Set full-screen background image */
+body {
+    margin: 0;
+    padding: 0;
+    background: url('181e4176-5187-4543-8ff0-990cbd090803.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-container {
+    text-align: center;
+    padding: 40px;
+    border-radius: 15px;
+    color: white;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    font-size: 1.2rem;
+    padding: 10px 25px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e67e22;
+  }
